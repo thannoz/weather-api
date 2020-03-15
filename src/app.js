@@ -22,7 +22,7 @@ app.use(express.static(publicDirPath));
 app.get('', (req, res) => {
   res.render('index', {
     title: 'Weather App',
-    name: 'Carlos Maiza'
+    name: 'Carloz Maiza'
   });
 });
 
